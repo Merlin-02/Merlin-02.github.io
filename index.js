@@ -1,4 +1,9 @@
 // scripts.js
 document.addEventListener('DOMContentLoaded', function() {
-    // Aquí puedes agregar cualquier funcionalidad JavaScript adicional que necesites
+    const menuToggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function() {
+        menu.classList.toggle('menu-open');
+    });
 });
