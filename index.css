@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nabla&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nabla&family=Poetsen+One&display=swap');
 
 /* General */
 .container {
@@ -19,15 +19,19 @@
 }
 
 .titulo{
-    font-family: "Nabla", system-ui;
-    font-optical-sizing: auto;
+    font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-      "EDPT" 100,
-      "EHLT" 12;
-  
+    font-size: 60px;  
 }
+
+.menu{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+}
+
 
 iframe {
     width: 100%;
@@ -71,6 +75,10 @@ header {
     text-align: center;
 }
 
+p{
+    text-align: justify;
+}
+
 nav {
     position: relative;
 }
@@ -112,12 +120,24 @@ nav ul li a:hover {
     background-color: rgba(17, 17, 17, 0.8);
 }
 
+.informacion {
+    flex-basis: calc(50% - 10px); /* Establece el ancho del 70% del contenedor principal */
+}
+
+.escudo {
+    flex-basis: calc(30% - 10px); /* Establece el ancho del 30% del contenedor principal */
+}
+
+
 /* Main */
 main {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     margin: 20px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea los elementos al principio verticalmente */
 }
 
 section {
