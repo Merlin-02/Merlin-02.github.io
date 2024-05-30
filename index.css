@@ -1,4 +1,21 @@
-/* styles.css */
+.container {
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.maps, .redes {
+    flex: 1;
+    margin: 10px;
+}
+
+.maps{
+    margin-right: 18%;
+}
+
+iframe {
+    width: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +26,23 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: lighten;
     background-color: rgba(255, 255, 255, 0.5);
+    justify-content: center;
+    align-items: center;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(76, 175, 80, 0.8);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /* creates padding around scroll thumb */
+  }
 
 header {
     background-color: rgba(76, 175, 80, 0.8);
