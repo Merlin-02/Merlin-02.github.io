@@ -1,14 +1,19 @@
+/* Mantén tu CSS actual y agrega/modifica lo siguiente */
+
+/* General */
 .container {
     margin-left: 2%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap; /* Añadido para permitir que los elementos se ajusten */
 }
+
 .maps, .redes {
     flex: 1;
     margin: 10px;
 }
 
-.maps{
+.maps {
     margin-right: 18%;
 }
 
@@ -16,6 +21,7 @@ iframe {
     width: 100%;
 }
 
+/* Ajustes en el diseño de la cabecera y el cuerpo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -30,20 +36,22 @@ body {
     align-items: center;
 }
 
+/* Scrollbar */
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: white;        /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: rgba(76, 175, 80, 0.8);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid white;  /* creates padding around scroll thumb */
-  }
+    width: 12px;
+}
 
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(76, 175, 80, 0.8);
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+/* Header */
 header {
     background-color: rgba(76, 175, 80, 0.8);
     color: white;
@@ -92,6 +100,7 @@ nav ul li a:hover {
     background-color: rgba(17, 17, 17, 0.8);
 }
 
+/* Main */
 main {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -123,14 +132,28 @@ h2 {
     nav ul.menu-open {
         display: flex;
     }
-    
+
     nav ul li {
         width: 100%;
         text-align: center;
     }
-    
+
     main {
         margin: 10px;
         padding: 15px;
+    }
+
+    .container {
+        flex-direction: column; /* Añadido para que los elementos se apilen en pantallas pequeñas */
+        align-items: center;
+    }
+
+    .maps, .redes {
+        margin-right: 0;
+    }
+
+    .maps iframe, .redes iframe {
+        width: 100%;
+        height: auto; /* Ajustar altura automáticamente */
     }
 }
