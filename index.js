@@ -7,3 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
         menu.classList.toggle('menu-open');
     });
 });
+
+/*Codigo para la galeria */
+
