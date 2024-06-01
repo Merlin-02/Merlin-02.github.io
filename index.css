@@ -426,9 +426,9 @@ h3 {
 }
 
 .prev {
-  left: -1px; /* Mueve el botón hacia la izquierda del carrusel */
+  left: 0px; /* Mueve el botón hacia la izquierda del carrusel */
 }
 
 .next {
-  right: -1px; /* Mueve el botón hacia la derecha del carrusel */
+  right: 0px; /* Mueve el botón hacia la derecha del carrusel */
 }
