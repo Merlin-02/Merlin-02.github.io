@@ -20,6 +20,7 @@ function activate(e) {
 
 document.addEventListener('click',activate,false);
 // codigo carusel
+
 let currentIndex = 0;
 
 function showSlide(index) {
