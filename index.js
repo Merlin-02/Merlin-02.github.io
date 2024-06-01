@@ -19,7 +19,8 @@ function activate(e) {
 }
 
 document.addEventListener('click',activate,false);
-// codigo carusel
+/* codigo carusel historia */
+
 let currentIndex = 0;
 
 function showSlide(index) {
@@ -46,3 +47,4 @@ function prevSlide() {
 document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentIndex);
 });
+
