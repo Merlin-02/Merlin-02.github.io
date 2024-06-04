@@ -482,7 +482,7 @@ h3 {
 
 }
 
-/*.carousel-item .texto {
+.carousel-item .texto {
   
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
@@ -493,7 +493,7 @@ h3 {
   font-size: 30px;
   
 }
-*/
+
 
 .carousel-image {
   width: 60%;
