@@ -366,10 +366,10 @@ h3 {
   width: 80%;
   margin: auto;
   overflow: hidden;
-  border: 4px solid #10ef3d;
+  border: 4px solid #f3ebebb8;
   border-radius: 10px;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  background-image: url('Imagenes/fondo4.jpg');
+  background-image: url('Imagenes/fondo12.jpg');
   background-size: cover;
   background-repeat: repeat;
 }
@@ -393,11 +393,12 @@ h3 {
   /*font-family: "Georgia", serif; /* 
   font-style: italic; /* Estilo itálico */
   margin-bottom: 10px;
-  color: #23d847;
-  font-family: "Alfa Slab One", serif;
+  color: rgba(25, 210, 102, 0.811);
+  font-family: "Alfa Slab One", cursif;
   font-weight: 400;
   font-style: italic;
   text-transform: uppercase;
+  font-size: 50px;
 
 }
 
@@ -406,16 +407,17 @@ h3 {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;
+  font-style: italic;
   text-align: justify;
-  color:white;
+  color:black;
+  font-size: 30px;
   
 }
 
 .carousel-image {
-  width: 80%;
+  width: 60%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -425,13 +427,13 @@ h3 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(15, 221, 15, 0.7); 
-  color: rgba(0, 0, 0, 0.811);
+  background: rgba(241, 244, 241, 0.7); 
+  color: rgba(0, 231, 96, 0.811);
   border: none;
-  font-size: 2em;
+  font-size: 5em;
   cursor: pointer;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 100%;
   z-index: 2;
   width: 50px;
   height: 50px;
@@ -441,10 +443,10 @@ h3 {
 }
 
 .prev {
-  left: 0px; 
+  left: 60px; 
 }
 
 .next {
-  right: 0px; 
+  right: 60px; 
 }
 
