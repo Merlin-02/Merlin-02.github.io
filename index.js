@@ -1,3 +1,4 @@
+import 'animate.css';
 // scripts.js
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.menu-toggle');
@@ -19,6 +20,8 @@ function activate(e) {
 }
 
 document.addEventListener('click',activate,false);
+
+
 /* codigo carusel historia */
 
 let currentIndex = 0;
