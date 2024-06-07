@@ -48,3 +48,20 @@ document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentIndex);
 });
 
+
+// Mostrar el popup cuando la página carga
+window.onload = function() {
+    document.getElementById('popup').style.display = 'flex';
+};
+
+// Cerrar el popup cuando se hace clic en la 'x'
+document.getElementById('close-popup').onclick = function() {
+    document.getElementById('popup').style.display = 'none';
+};
+
+// Cerrar el popup cuando se hace clic fuera del contenido del popup
+window.onclick = function(event) {
+    if (event.target == document.getElementById('popup')) {
+        document.getElementById('popup').style.display = 'none';
+    }
+};
